@@ -1,0 +1,6 @@
+vim.keymap.set('n', '<C-a>', 'ggVG', { desc = 'Select all' })
+vim.keymap.set('n', '<leader>ya', ':%y+<CR>', { desc = 'Yank all to clipboard' })
+vim.keymap.set('n', '<C-s>', ':w<CR>', { desc = 'Save file' })
+vim.keymap.set('n', '<leader>q', ':q<CR>', { desc = 'Quit' })
+vim.keymap.set('n', '<leader>Q', ':qa!<CR>', { desc = 'Quit all force' })
+vim.keymap.set('n', '<C-t>', ':botright 15split | terminal pwsh<CR>', { desc = 'Open terminal' })
