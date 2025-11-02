@@ -1,3 +1,3 @@
-#NeoVim Dots
+# NeoVim Dots
 
 My custom NeoVim dots
